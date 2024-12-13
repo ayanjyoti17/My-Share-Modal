@@ -1,19 +1,16 @@
-
 @font-face {
     font-family: 'Trebuchet MS';
     font-style: normal;
     font-weight: normal;
     src: local('Trebuchet MS'), url('font/trebuc.woff'), format('woff');
     }
-    
 
-    @font-face {
+@font-face {
     font-family: 'Trebuchet MS Italic';
     font-style: normal;
     font-weight: normal;
     src: local('Trebuchet MS Italic'), url('font/Trebuchet-MS-Italic.woff'), format('woff');
     }
-
 
 :root{
     --white : #fff;
@@ -58,10 +55,10 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: var(--black); */
-    background: url('../images/bg.png') no-repeat;
+    background: var(--black);
+    /* background-image: url("images/bg.jpeg"); */
     background-size: cover;
-    /* background: #03051A; */
+    background: #03051A;
 }
 
 /* /// circles //// */

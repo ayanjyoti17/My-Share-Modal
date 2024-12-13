@@ -1,4 +1,3 @@
-
 // modals
 const profile_modal = document.querySelector("#profile-modal");
 const follow_modal = document.querySelector("#follow-modal");
